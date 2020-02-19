@@ -1,0 +1,44 @@
+.work1 {
+  background-color: #f1f1f1;
+  height: 700px; }
+
+.line {
+  margin-left: 150px;
+  margin-right: 150px;
+  border-top: 3px solid blue; }
+
+.our-product {
+  padding: 50px 5px 50px 5px;
+  background-color: white;
+  text-align: center;
+  color: black; }
+
+.btn-clear {
+  background-color: #6f7374;
+  border: 1px white solid;
+  padding: 10px;
+  color: white; }
+
+.btn-red {
+  background-color: red;
+  padding: 10px;
+  color: white; }
+
+.content-header h1 {
+  font-size: 1.3em;
+  font-weight: bold; }
+
+.content-header {
+  padding: 100px 5px 100px 5px;
+  background-color: #6f7374;
+  text-align: center;
+  color: white; }
+
+.bg1-light {
+  background-color: white; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .bg1-light {
+      background-color: white;
+      border-color: #080808; } }
+
+/*# sourceMappingURL=style.css.map */

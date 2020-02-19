@@ -1,0 +1,71 @@
+
+// viet scss
+$mbi-break-min-width:200px;
+$mbi-break-max-width:767px;
+// thuoc tinh mau background cho content-header
+$bg-content-header:#6f7374;
+$padding-button:10px;
+$color-white-btn:white;
+// our-product
+// class line
+// work1 background
+.work1{
+	background-color: #f1f1f1;
+	height: 700px;
+}
+
+// class line
+.line{
+	margin-left: 150px;
+	margin-right: 150px;
+	border-top: 3px solid blue;
+}
+
+
+// our-product
+.our-product{
+	padding: 50px 5px 50px 5px;
+	background-color: white;
+	text-align: center;
+	color:black;
+}
+
+
+// content header
+.btn-clear{
+	background-color: $bg-content-header;
+	border: 1px white solid;
+	padding: $padding-button;
+	color: $color-white-btn;
+}
+.btn-red{
+	background-color: red;
+	padding: $padding-button;
+	color: $color-white-btn;
+}
+.content-header h1 {
+
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+.content-header{
+	padding: 100px 5px 100px 5px;
+	background-color: $bg-content-header;
+	text-align: center;
+	color:white;
+}
+.bg1-light {
+    background-color: 
+    white ;
+// thuoc tinh
+// float: left;
+// width: 250px;
+	@media only screen and (min-width:$mbi-break-min-width ) and (max-width: $mbi-break-max-width)  {
+		//Put your CSS here for 400px to 600px width devices (cover all mobile portrait width //
+		background-color: white;
+	border-color: #080808;
+		}
+}
+
+
