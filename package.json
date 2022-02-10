@@ -9,7 +9,7 @@
     "gulp-connect": "latest"
   },
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "scss":"node-sass--watch styles/style.scss-o css"
